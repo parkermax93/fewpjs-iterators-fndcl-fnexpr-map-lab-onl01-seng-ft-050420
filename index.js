@@ -14,3 +14,6 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+
+let students = ["harry", "ron", "hermione", "ginevra"];
+let rollCall = students.map(student => student + " the wizard")
